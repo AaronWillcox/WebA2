@@ -1,5 +1,7 @@
-.navbar {background-color:#206a5d;
-    color: #ffcc29;}
+.navbar {
+    background-color: #206a5d;
+}
+/*.navbar-custom {color: #ffcc29;}*/
 
 body {  padding-top: 70px;
     background-color: #81b214;
