@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 .navbar {
     background-color: #206a5d;
 }
-/*.navbar-custom {color: #ffcc29;}*/
+#navbar-title {color: #ffcc29;}
 
 body {  padding-top: 70px;
-    background-color: #81b214;
-    color:  #ffcc29;}
+    /*background-color: #81b214;
+    color:  #ffcc29;*/}
+
+#section-1 {
+    background-color: #81b214 ;
+}
+#section-2 {
+    background-color: #62760c ;
+}
+#section-3 {
+    background-color: #535204 ;
+}
+#section-4 {
+    background-color: #cdb30c ;
+}
+
+#heading-main {
+    font-size: 5vh;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
