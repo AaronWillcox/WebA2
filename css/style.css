@@ -25,7 +25,29 @@ body {  padding-top: 70px;
 }
 #section-4 {
     background-color: #cdb30c ;
-    padding-top: 30px;
+    padding-top: 20px;
+}
+
+#contact-btn{
+    background-color: #206a5d;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#email-info{
+    padding-top: 10px;
 }
 
 #welcome-main {

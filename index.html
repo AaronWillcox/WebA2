@@ -80,12 +80,16 @@
                                 <div class="col-md">
                                     <h3>Contact Us</h3>
                                     <div class="mb-3">
-                                        <label for="FormControlInput1" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
+                                        <input type="text" class="form-control" id="FormControlInput1" placeholder="Full Name">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="FormControlTextarea1" class="form-label">Message</label>
-                                        <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                                        <input type="email" class="form-control" id="FormControlInput2" placeholder="Email address">
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" id="FormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <button type="button" class="btn btn-dark" id="contact-btn">Send</button>
                                     </div>
                                 </div>
                             </div>
@@ -98,15 +102,16 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md">
-                                <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.43438804879!2d-3.1268796842483213!3d51.00812337955628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486df4893cb6787d%3A0xea10fb09685b9f78!2sShepherds%20Rest%20Public%20House!5e0!3m2!1sen!2suk!4v1618317913704!5m2!1sen!2suk" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                <div class="map-responsive">
+                                    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2510.43438804879!2d-3.1268796842483213!3d51.00812337955628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486df4893cb6787d%3A0xea10fb09685b9f78!2sShepherds%20Rest%20Public%20House!5e0!3m2!1sen!2suk!4v1618317913704!5m2!1sen!2suk" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md">
-                                <h6><i class="bi bi-envelope-open"></i> info@the-sheps.net</h6>
+                                <h6 id="email-info"><i class="bi bi-envelope-open"></i> info@the-sheps.net</h6>
                                 <h6><i class="bi bi-telephone"></i> 01823 339602</h6>
                                 <h6><i class="bi bi-shop"></i> 64 Galmington Rd,Taunton TA1 5NZ</h6>
-
                             </div>
                         </div>
                     </div>
