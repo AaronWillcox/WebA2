@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
 .navbar {
     background-color: #206a5d;
 }
 #navbar-title {color: #ffcc29;}
 
 body {  padding-top: 70px;
-    /*background-color: #81b214;
-    color:  #ffcc29;*/}
+}
 
 #section-1 {
     background-color: #81b214 ;
@@ -15,15 +15,26 @@ body {  padding-top: 70px;
 #section-2 {
     background-color: #62760c ;
 }
+.img-pos{
+    object-fit: fill;
+    object-position: center;
+}
+
 #section-3 {
     background-color: #535204 ;
 }
 #section-4 {
     background-color: #cdb30c ;
+    padding-top: 30px;
 }
 
-#heading-main {
+#welcome-main {
     font-size: 5vh;
     font-family: 'Lora', serif;
     text-align: center;
 }
+/*#great-food-main {
+    font-size: 5vh;
+    font-family: 'Lora', serif;
+    text-align: center;
+}*/
