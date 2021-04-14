@@ -15,10 +15,6 @@ body {  padding-top: 70px;
 #section-2 {
     background-color: #62760c ;
 }
-.img-pos{
-    object-fit: fill;
-    object-position: center;
-}
 
 #section-3 {
     background-color: #535204 ;
