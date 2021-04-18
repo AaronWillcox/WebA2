@@ -7,6 +7,7 @@
 #navbar-title {color: #ffcc29;}
 
 body {  padding-top: 70px;
+    font-family: 'Lora', serif;
 }
 
 #section-1 {
@@ -27,6 +28,11 @@ body {  padding-top: 70px;
 #section-3 {
     background-color: #535204 ;
 }
+#event-btn{
+    background-color: #206a5d;
+margin-top: 10px;
+}
+
 #section-4 {
     background-color: #cdb30c ;
     padding-top: 20px;

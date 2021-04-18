@@ -96,7 +96,53 @@
         </div>
     </div>
 
-    <div class="section" id="section-3">Some section</div>
+    <div class="section" id="section-3">
+        <div class="container-fluid">
+            <div >
+                <div >
+                    <div class="d-flex justify-content-center">
+                        <div class="container">
+                            <div>
+                                <div>
+                                    <h1 style="padding-top: 50px">Events</h1>
+                                    <h3>Enter two teams to see their most recent match.</h3>
+                                    <div class="col-md">
+                                        <div class="md-3">
+                                            <input type="text" id="input1" placeholder="Insert Team Name">
+                                        </div>
+                                        <h3>VS</h3>
+                                        <div class="md-3">
+                                            <input type="text" id="input2" placeholder="Insert Team Name">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <button onclick="APICall()" type="button" class="btn btn-dark" id="event-btn">Search</button>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md">
+                                        <img class="rounded" src="#" alt="Thumbnail" id="thumb" style="height: 100px; width: 200px">
+                                        <h2 id="sport">Sport</h2>
+                                        <h2 id="date">Date</h2>
+                                        <h2 id="home">Home Team</h2>
+                                        <h2 id="homeScore">Home Score</h2>
+                                        <h2 id="away">Away Team</h2>
+                                        <h2 id="awayScore">Away Score</h2>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -179,6 +225,8 @@
 <script>
     AOS.init();
 </script>
+
+<script src="js/api_call.js"></script>
 
 </body>
 </html>
