@@ -1,5 +1,5 @@
 
-
+<!-- Events page code -->
 function APICall()
 {
     var xhttp = new XMLHttpRequest();

@@ -17,7 +17,7 @@
     <!--<link rel="manifest" href="images/favicon/site.webmanifest">-->
     <title>THE SHEPHERDS REST</title>
 </head>
-
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 <div class="container-fluid">
     <a class="navbar-brand" href="index.html" id="navbar-title">THE SHEPHERDS REST</a>
@@ -41,11 +41,10 @@
         </ul>
     </div>
 </div>
-
 </nav>
-
 <body>
 <div id="fullpage">
+    <!-- Page 1 - Welcome -->
     <div class="section" id="section-1">
         <div class="d-flex p-2 justify-content-center bd-highlight text-wrap">
             <div class="container">
@@ -55,7 +54,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Page 2 - Great Food -->
     <div class="section" id="section-2">
         <div class="container">
             <div class="row">
@@ -95,7 +94,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Page 3 - Events -->
     <div class="section" id="section-3">
         <div class="container-fluid">
             <div >
@@ -114,13 +113,10 @@
                                         <div class="md-3">
                                             <input type="text" id="input2" placeholder="Insert Team Name">
                                         </div>
-
                                         <div class="mb-3">
                                             <button onclick="APICall()" type="button" class="btn btn-dark" id="event-btn">Search</button>
                                         </div>
                                     </div>
-
-
                                     <div class="col-md">
                                         <img class="rounded" src="#" alt="Thumbnail" id="thumb" style="height: 100px; width: 200px">
                                         <h2 id="sport">Sport</h2>
@@ -130,22 +126,15 @@
                                         <h2 id="away">Away Team</h2>
                                         <h2 id="awayScore">Away Score</h2>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
-
                 </div>
             </div>
         </div>
     </div>
-
-
-
+    <!-- Page 4 - Contact Us -->
     <div class="section" id="section-4">
         <div class="container-fluid">
             <div class="row">
@@ -170,7 +159,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             <div class="col-md-6">
@@ -191,42 +179,31 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-
     </div>
 </div>
-
-
-
-<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+<!-- Scripts -->
 <script src="js/vendors/easings.min.js"></script>
-<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
 <script type="text/javascript" src="js/vendors/scrolloverflow.min.js"></script>
 <script type="text/javascript" src="js/fullpage.extensions.min.js"></script>
-<!-- Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
+<script src="js/api_call.js"></script>
+<!-- Initialisation Scripts -->
 <script>
     new fullpage('#fullpage', {
     //options here
     autoScrolling:true,
     scrollHorizontally: true
     });
-
     //methods
     fullpage_api.setAllowScrolling(true);
 </script>
-
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
-
-<script src="js/api_call.js"></script>
-
 </body>
 </html>
